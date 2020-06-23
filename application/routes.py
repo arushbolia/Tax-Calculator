@@ -1,4 +1,4 @@
-from application import app
+from application import app, db
 from flask import render_template, request, Response, json, redirect, flash, url_for, session
 
 
